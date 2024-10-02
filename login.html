@@ -35,7 +35,7 @@
                         <a href="signup.html">Signup</a>
                     </li>
                     <li class="nav-li8">
-                        <a href="login.html">Login</a>
+                        <a href="/login.html">Login</a>
                     </li>
                 </ul>
             </nav>
@@ -44,14 +44,19 @@
             <div class="contactmain">
             <div class="contactmsg">
                 <form class="contactform">
-                    <h1 class="contacttitle"><u>SignUp</u></h1>
-                    <input type="text" name="name" class="inputs" placeholder="Enter your Full Name" required>
+                    <h1 class="contacttitle"><u>Login</u></h1>
                     <input type="email" name="email" class="inputs" placeholder="Your Email" required>
-                    <input type="number" name="number" class="inputs" placeholder="Your Phone Number" required>
-                    <input type="password" name="password" class="inputs" placeholder="Create Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-                    <input type="password" name="rep" class="inputs" placeholder="Repeat your Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-                    <button class="btnsmt" type="submit">SignUp</button>
-                    <p>Already have an accuont? <a href="login.html">Login</a></p>
+                    <input type="password" name="password" class="inputs" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                    <div class="rem1">
+                        <div class="rem">
+                            <input type="checkbox"> <p>Remember me</p>
+                        </div>
+                        <div class="pass">
+                            <a href="">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <button class="btnsmt" type="submit">Login</button>
+                    <p>Don't have an account? <a href="signup.html">SignUp</a></p>
                 </form>
             </div>
             </div>

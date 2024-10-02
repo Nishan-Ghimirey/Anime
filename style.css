@@ -376,3 +376,15 @@ body {
 .contactform a {
     color: rgb(83, 83, 226);
 }
+
+.rem {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.rem1 {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
