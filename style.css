@@ -159,6 +159,7 @@ button{
     gap: 2rem;
 }
 
+
 .section3_d2 img {
     width:100%;
 }
@@ -176,7 +177,7 @@ body {
 
 .ecard {
     display: flex;
-    margin-left: 115px;
+    margin-left: 0px;
     justify-content: center;
 }
 
@@ -262,4 +263,116 @@ body {
 
 .footer2 p a{
     color: rgb(253, 253, 253);
+}
+
+.contactmain {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+.contactform {
+    padding: 50px;
+    border-radius: 20px;
+    background-color: rgb(172, 170, 170);
+    justify-content: space-evenly;
+    margin-left: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.inputs {
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 50px; 
+}
+
+.contacttitle {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputdescription {
+    height: 150px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    width: 400px;
+}
+
+.inputs:focus, .inputdescription:focus {
+    border: 2px solid black;
+}
+
+.btnsmt {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.contactmsg {
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.icons {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.icons .icons1 {
+    min-width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 21px;
+}
+
+.text1 {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.text1 h2 {
+    font-weight: 500;
+}
+
+.contactform p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contactform a {
+    color: rgb(83, 83, 226);
 }
