@@ -106,6 +106,15 @@ button{
     width: 490px;
 }
 
+.carousel-btn {
+    margin: 0 100px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    font-size: 25px;
+}
+
 .s2_details {
     display: flex;
     flex-direction: column;
@@ -432,6 +441,14 @@ body {
     margin-bottom: 20px;
 }
 
+.aboutus {
+    margin-left: 85vh;
+}
+
+.para {
+    margin: 0 100px;
+}
+
 .about-text h5 {
     font-size: 25px;
     margin-bottom: 25px;
@@ -444,9 +461,10 @@ body {
 
 .about-text p {
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 1.5;
     font-size: 18px;
     margin-bottom: 45px;
+    font-weight: 299;
 }
 
 .abouts {
@@ -470,10 +488,18 @@ body {
     margin-bottom: 20px;
 }
 
+.location h2 {
+    align-items: center;
+    justify-content: center;
+    padding-left: 42%;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
 .location1 h2 {
     align-items: center;
     justify-content: center;
-    padding-left: 39.4%;
+    padding-left: 41%;
     font-size: 50px;
     padding-bottom: 20px;
 }
@@ -506,4 +532,25 @@ body {
 
 .about1 .sci li a #disc:hover{
     color: blue;
+}
+
+.footer1 {
+    font-size: 20px;
+    font-weight: 299px;
+}
+
+.footer2 {
+    font-size: 20px;
+    font-weight: 299px;
+}
+
+.footer3 {
+    font-size: 20px;
+    font-weight: 299px;
+}
+
+.firstImg {
+    width: 500px;
+    height: 500px;
+    margin-left: 25px;
 }
